@@ -20,7 +20,7 @@ pipeline {
     }
     post
    {
-       allways
+       always
        {
            emailext body: 'summary', subject: 'pipeline status', to: 'cddumb111@gmail.com'
        }
